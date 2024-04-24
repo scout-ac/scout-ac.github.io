@@ -106,7 +106,7 @@ h1 {
 }
 
 #front-page #hero h1 {
-    color: #797;
+    color: teal;
     padding: 1.5em 0 2em 0;
 }
 
@@ -124,7 +124,7 @@ h1 {
 }
 
 #front-page #hero #screenshot #buttons .button.one {
-    color: teal;
+    color: #c09;
 }
 
 #front-page #hero #screenshot #buttons .button.two {
@@ -132,7 +132,7 @@ h1 {
 }
 
 #front-page #hero #screenshot #buttons .button.three {
-    color: #c09;
+    color: teal;
 }
 
 #front-page #hero #screenshot #fake-pdf {
