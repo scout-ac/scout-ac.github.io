@@ -185,11 +185,15 @@ h1 {
 .arrow.into-this {
     display: block;
     position: relative;
-    width: 2em;
-    height: 7em;
-    background: red;
+    width: 1em;
+    height: 2em;
+    background: transparent;
     z-index: 1;
-    top: -3em;
+    top: -1em;
+    color: #f66;
+    font-size: 6em;
+    overflow: clip;
+    transform: scaleX(-1) scaleY(-1);
 }
 
 .fleurons {
