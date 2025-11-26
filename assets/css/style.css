@@ -97,106 +97,18 @@ select {
 
 /* 2. Custom styles. */
 
+header {
+	height: 99vh;
+	display: flex;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: ubuntu, Cantarell, Oxygen-Sans, verdana, lucida grande, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+
 h1 {
     text-align: center;
+	margin: 0 auto;
 }
 
-#front-page .row.hero  {
-    background: #f0fff0;
-    border-bottom: 1px solid #797;
-}
-
-#front-page h1 {
-    color: teal;
-    padding: 1.5em 0 1em 0;
-}
-
-#front-page #screenshot {
-    color: #333;
-    padding: 1em 1em 0 1em;
-    margin: 0 auto;
-    width: 80%;
-    border: 1px solid #797;
-    border-radius: 0;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    border-bottom: none;
-    background: white;
-}
-
-#front-page #screenshot #buttons .button.one {
-    color: #c09;
-}
-
-#front-page #screenshot #buttons .button.two {
-    color: darkorange;;
-}
-
-#front-page #screenshot #buttons .button.three {
-    color: teal;
-}
-
-#front-page #screenshot #fake-pdf {
-    border: 1px solid #ccc;
-    border-radius: 0;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    border-bottom: none;
-    margin: 1em auto 0 auto;
-    padding: 1em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#front-page #screenshot #fake-pdf .title,
-#front-page #screenshot #fake-pdf .lorem {
-    font-family: "Times", serif;
-    font-style: italic;
-}
-#front-page #screenshot #fake-pdf .title {
-    color: #036;
-    font-weight: bold;
-    font-size: 1.3em;
-    text-align: center;
-    margin: 0.3em 0 1em 0;
-}
-#front-page #screenshot #fake-pdf .lorem {
-    color: #555;
-    height: 4em !important;
-    max-height: 4em !important;
-}
-
-#front-page #turn-this {
-    padding-bottom: 1em;
-}
-
-#front-page #into-this {
-    position: relative;
-    z-index: 2;
-}
-
-.arrow {
-    display: inline-block;
-    height: 0px;
-    width: 0px;
-    z-index: 2;
-}
-
-.arrow.into-this {
-    display: block;
-    position: relative;
-    width: 1em;
-    height: 2em;
-    background: transparent;
-    z-index: 1;
-    top: -1em;
-    color: #f66;
-    font-size: 6em;
-    overflow: clip;
-    transform: scaleX(-1) scaleY(-1);
-}
-
-.fleurons {
-    color: #ccc;
-    padding: 0 0.5em;
-}
