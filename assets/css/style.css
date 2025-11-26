@@ -96,7 +96,17 @@ select {
 
 /* 2. Custom styles. */
 
+header {
+	height: 99vh;
+	display: flex;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: ubuntu, Cantarell, Oxygen-Sans, verdana, lucida grande, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+
 h1 {
     text-align: center;
-    color: teal;
+	margin: 0 auto;
 }
